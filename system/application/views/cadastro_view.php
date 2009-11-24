@@ -91,7 +91,11 @@
                         </div>
                         <br><br><br><br><br><br><br><br><br><br><br><br>
                         <div id="promo">
-                            aqui
+                            
+                        </div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <div id="sociais">
+                            
                         </div>
                     </div>
                     <div id="fecha"><img src="<?=base_url()?>/static/image/inv.gif" alt="invisivel"></div>
