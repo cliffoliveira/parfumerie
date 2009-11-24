@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>parfumerie</title>
+        <title>::: parfumerie :::</title>
 
         <link href="<?=base_url()?>/static/css/estilo.css" rel="stylesheet" type="text/css" />
     <body>
