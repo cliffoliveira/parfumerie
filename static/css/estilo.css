@@ -146,7 +146,7 @@ h3{
 #frase{
      background-color:#fff;
     width:683px;
-    height: 126px;
+    height: 26px;
     float:left;
     background-image: URL("http://localhost/parfumerie/static/image/boxfoot.gif");
 }
@@ -180,9 +180,9 @@ h3{
 }
 #meulogin{
     width:232px;
-    height:173px;
+    height:53px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/meulogin.jpg");
+    background-image: URL("http://localhost/parfumerie/static/image/meulogin2.jpg");
 
 }
 #promo{
