@@ -143,6 +143,10 @@ h3{
     float:left;    
     background-image: URL("http://localhost/parfumerie/static/image/bg_box.jpg");
 }
+#box2{
+    width:683px;
+    float:left;
+   }
 #frase{
      background-color:#fff;
     width:683px;
