@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|images|flash|blog|css|js|uploads|robots\.txt|phpinfo\.php|ajax\.php)
+
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
