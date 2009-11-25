@@ -17,14 +17,14 @@ body {
     margin:0px auto 0px auto;
     background:#fff;
     text-align:center; /* hack para o IE */
-    background-image: URL("http://localhost/parfumerie/static/image/bgfaixa2.jpg");
-    
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/bgfaixa2.jpg");
+
 }
 h1{
     color:#fff;
     font-family: "Helvetica", sans-serif;
     font-size:18px;
-    
+
 }
 h2{
     color:#fff;
@@ -41,16 +41,16 @@ h3{
 #container {
     width: 100%;
     background-color: #ccc;
-    background-image: URL("http://localhost/parfumerie/static/image/bgfaixa2.jpg");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/bgfaixa2.jpg");
 
 }
 #subcontainer {
     width: 1045px;
-     margin:0;
+    margin:0;
     padding:0;
     margin:0px auto 0px auto;
-     
-   
+
+
 
 }
 #superhead{
@@ -64,12 +64,12 @@ h3{
     margin:0;
     padding:0;
     margin:0px auto 0px auto;
-    background-image: URL("http://localhost/parfumerie/static/image/head.jpg");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/head.jpg");
 }
 #faixa{
     width: 100%;
     height: 96px;
-    background-image: URL("http://localhost/parfumerie/static/image/bgfaixa.gif");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/bgfaixa.gif");
 }
 #faixainterna{
     margin:0;
@@ -77,63 +77,63 @@ h3{
     margin:0px auto 0px auto;
     width: 1045px;
     height: 96px;
-    background-image: URL("http://localhost/parfumerie/static/image/img_faixa.gif");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/img_faixa.gif");
 }
-#btn_faixa{
+#btn_faixa666{
     position: absolute;
     top: 330px;
     left: 250px;
     width: 53px;
     height: 33px;
     background-color: transparent;
-    
+
 }
-#btn_faixa1{
+#btn_faixa166{
     position: absolute;
     top: 330px;
     left: 352px;
     width: 100px;
     height: 33px;
     background-color: transparent;
-    
+
 }
-#btn_faixa2{
+#btn_faixa2666{
     position: absolute;
     top: 330px;
     left: 505px;
     width: 138px;
     height: 33px;
     background-color: transparent;
-    
+
 }
-#btn_faixa3{
+#btn_faixa3666{
     position: absolute;
     top: 330px;
     left: 692px;
     width: 123px;
     height: 33px;
     background-color: transparent;
-    
+
 }
-#btn_faixa4{
+#btn_faixa4666{
     position: absolute;
     top: 330px;
     left: 857px;
     width: 90px;
     height: 33px;
     background-color: transparent;
-    
+
 }
-#btn_faixa5{
+#btn_faixa566{
     position: absolute;
     top: 320px;
     left: 1000px;
     width: 155px;
     height: 63px;
     background-color: transparent;
-    
+
 }
-#btn_frase{
+#btn_frase66{
     position: absolute;
     top: 730px;
     left: 840px;
@@ -142,105 +142,112 @@ h3{
     background-color:transparent;
 
 }
-#btn_login{
+#btn_login666{
     position: absolute;
     top: 496px;
     left: 1150px;
     width: 25px;
     height: 25px;
-    background-color:transparent;
+    background-color:red;
 
 }
-#btn_cadastro{
+#btn_cadastro666{
     position: absolute;
     top: 527px;
     left: 980px;
     width: 100px;
     height: 15px;
-    background-color:transparent;
+    background-color:red;
 
 }
-#btn_esqueci_senha{
-    position: absolute;
-    top: 550px;
-    left: 980px;
+#btn_esqueci_senha666{
+    position:relative;
+    top: 50px;
+    left: 100px;
     width: 100px;
     height: 15px;
-    background-color:transparent;
+    background-color:red;
 
 }
 #margen{
     width:59px;
     float:left;
-    
+
 }
 #box{
     width:683px;
     float:left;    
-    background-image: URL("http://localhost/parfumerie/static/image/bg_box.jpg");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/bg_box.jpg");
 }
+#box2 p{
+    text-align:left;
+    color:#fff;
+    font-family:sans-serif;
+    font-size:12px;
+}
+
 #box2{
     width:683px;
     float:left;
-   }
+}
 #frase{
-     background-color:#fff;
+    background-color:#fff;
     width:683px;
     height: 26px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/boxfoot.gif");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/boxfoot.gif");
 }
 #frasefoot{
     width:683px;
     min-height: 16px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/bgfaixa1.jpg");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/bgfaixa1.jpg");
 }
 #linha{
     width:683px;
     min-height:6px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/linha.gif");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/linha.gif");
 }
 #opiniao{
     width:683px;
     min-height:156px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/bgmural.gif");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/bgmural.gif");
 }
 #separador{
     width:29px;
     float:left;
-    
+
 }
 #coluna{
     width:232px;
     float:left;
-   
+
 }
 #meulogin{
     width:232px;
     height:180px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/meulogin.jpg");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/meulogin.jpg");
 
 }
 #promo{
     width:232px;
     height:205px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/vale.png");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/vale.png");
 
 }
 #sociais{
     width:232px;
     height:120px;
     float:left;
-    background-image: URL("http://localhost/parfumerie/static/image/social.png");
+    background-image: URL("http://www.tribodeideias.com.br/perfume/static/image/social.png");
 
 }
 #fecha{
     width:19px;
     float:left;
-    
+
 }

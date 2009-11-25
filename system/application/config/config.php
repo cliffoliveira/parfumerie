@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost/parfumerie/";
+$config['base_url']	= "http://www.tribodeideias.com.br/perfume/";
 
 /*
 |--------------------------------------------------------------------------
