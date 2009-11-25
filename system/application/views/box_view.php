@@ -14,8 +14,8 @@
 
 </div>
 <div id="frasefoot">
-    <form action="form" method="post">
-        <textarea style="width:683px; height:126px; margin-top:0; border:none"></textarea>
+    <form action="cadastro/usuario" method="post">
+        <textarea name="frase" style="width:683px; height:126px; margin-top:0; border:none"></textarea>
         <span id="left" style="float:left;magintop:5px;color:#ffffff;font-size:18px;"></span>
         <input type="image" src="<?=base_url()?>/static/image/btn_enviar.gif"  style="float:right;">
 

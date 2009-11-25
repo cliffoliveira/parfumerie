@@ -2,9 +2,9 @@
     <head>
         <title><?=$titulo?></title>
 
-        <link href="<?=base_url()?>/static/css/estilo.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="<?=base_url()?>/static/js/jquery.js"></script>
-        <script type="text/javascript" src="<?=base_url()?>/static/js/jquery.limit-1.0.source.js"></script>
+        <link href="<?=base_url()?>static/css/estilo.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="<?=base_url()?>static/js/jquery.js"></script>
+        <script type="text/javascript" src="<?=base_url()?>static/js/jquery.limit-1.0.source.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('textarea').limit('230','#left');
@@ -53,26 +53,27 @@
                                 <div id="subcontainer">
                                     <div id="margen"><img src="<?=base_url()?>/static/image/inv.gif" alt="invisivel"></div>
                                     <!-- Start Div principal -->
-                                    
-                                        <?=$box?>
-                                    
+
+                                    <?=$box?>
+
                                     <!-- End Div principal -->
                                     <div id="separador"><img src="<?=base_url()?>/static/image/inv.gif" alt="invisivel"></div>
                                     <div id="coluna">
-                                        <form action="" method="">
+                                        <form action="<?=base_url()?>/cadastro/autentica" method="post" name="login">
                                             <div id="meulogin">
-                                                <input style="margin-top:58px; width:150px; height:30px; border:none" name="login" id="login" type="text"/>
+                                                <input style="margin-top:58px; width:150px; height:25px; border:none" name="login" id="login" type="text"/>
                                                 <img src="<?=base_url()?>/static/image/inv.gif" width="20px" height="15px" alt="invisivel">
-                                                <input style="margin-top:1px; width:150px; height:30px; border:none;" name="senha" id="senha" type="password" />
-                                                <a href="<?=base_url()?>cartoes">
+                                               
+                                                <input style="margin-top:8px; width:150px; height:25px; border:none;" name="senha" id="senha" type="password" />
+                                                <a href="#" onclick="document.login.submit();return false;">
                                                     <img src="<?=base_url()?>/static/image/inv.gif" border="0" width="20px" height="15px" alt="invisivel">
                                                 </a>
                                                 <br>
-                                                <a href="<?=base_url()?>cartoes">
+                                                <a href="<?=base_url()?>cadastro">
                                                     <img src="<?=base_url()?>/static/image/inv.gif" border="0" align="left" width="170px" height="15px" alt="invisivel">
                                                 </a>
                                                 <br>
-                                                <a href="<?=base_url()?>cartoes">
+                                                <a href="<?=base_url()?>cadastro/esqueci">
                                                     <img src="<?=base_url()?>/static/image/inv.gif" border="0" align="left" width="170px" height="15px" alt="invisivel">
                                                 </a>
                                         </form>
@@ -82,14 +83,30 @@
                                     </div>
                                     <br><br><br><br><br><br><br><br><br><br><br><br>
                                     <div id="promo">
-                                        
+
                                     </div>
                                 </div>
                                 <div id="fecha"><img src="<?=base_url()?>/static/image/inv.gif" alt="invisivel"></div>
                             </div>
 
                             </div>
+                            <div id="foot">
+                                <br><br>
+                             &copy; 2009 Parfumerie
+    * About Us
+    * Contact
+    * Blog
+    * Status
+    * Goodies
+    * API
+    * Business
+    * Help
+    * Jobs
+    * Terms
+    * Privacy
+
                             </div>
+
 
                             </body>
                             </html>
