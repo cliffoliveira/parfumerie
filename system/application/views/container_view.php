@@ -82,7 +82,7 @@
                                     </div>
                                     <br><br><br><br><br><br><br><br><br><br><br><br>
                                     <div id="promo">
-                                        aqui
+                                        
                                     </div>
                                 </div>
                                 <div id="fecha"><img src="<?=base_url()?>/static/image/inv.gif" alt="invisivel"></div>
